@@ -12,3 +12,11 @@ run.history
 # test specific files
 test/frmwrk_3/.testsuite.gold
 test/frmwrk_3/test_unit_test.sv
+
+# Generate products in examples
+examples/*/*/*.log
+examples/*/*/work/
+
+# Editor files
+*.kate-swp
+
